@@ -4,7 +4,7 @@ import store from './store.js'
 
 
 //Main
-import Main from "./views/Main/Main.vue";
+import Main from "./Main/Main.vue";
 // import Category from "./views/Main/category/Category.vue";
 // import Course from "./views/Main/course/Course.vue";
 // import MyCourse from "./views/Main/customer/MyCourse.vue";

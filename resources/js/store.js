@@ -86,29 +86,29 @@ Vue.use(Vuex)
 //   }
 // })
 
-// import storecategory from "./store/modules/admin/storecategory";
-// import storecourse from "./store/modules/admin/storecourse";
-// import storecustomer from "./store/modules/admin/storecustomer";
-// import storehastang from "./store/modules/admin/storehastang";
-// import storenewtoday from "./store/modules/admin/storenew";
-// import storeteacher from "./store/modules/admin/storeteacher";
-// import storeorder from "./store/modules/admin/storeorder";
-// import storeorderdetail from "./store/modules/admin/storeorderdetail";
-// import clientcategory from "./store/modules/client/clientcategory";
+import storecategory from "./store/modules/admin/storecategory";
+import storecourse from "./store/modules/admin/storecourse";
+import storecustomer from "./store/modules/admin/storecustomer";
+import storehastang from "./store/modules/admin/storehastang";
+import storenewtoday from "./store/modules/admin/storenew";
+import storeteacher from "./store/modules/admin/storeteacher";
+import storeorder from "./store/modules/admin/storeorder";
+import storeorderdetail from "./store/modules/admin/storeorderdetail";
+import clientcategory from "./store/modules/client/clientcategory";
 // import Vuex from 'vuex';
 
 const store = new Vuex.Store({
-    // modules: {
-    //     category: storecategory,
-    //     course: storecourse,
-    //     customer: storecustomer,
-    //     hastang: storehastang,
-    //     newtoday: storenewtoday,
-    //     teacher: storeteacher,
-    //     order:storeorder,
-    //     orderdetail:storeorderdetail,
-    //     category1:clientcategory
-    // }
+    modules: {
+        category: storecategory,
+        course: storecourse,
+        customer: storecustomer,
+        hastang: storehastang,
+        newtoday: storenewtoday,
+        teacher: storeteacher,
+        order:storeorder,
+        orderdetail:storeorderdetail,
+        category1:clientcategory
+    }
 });
 
 export default store;
